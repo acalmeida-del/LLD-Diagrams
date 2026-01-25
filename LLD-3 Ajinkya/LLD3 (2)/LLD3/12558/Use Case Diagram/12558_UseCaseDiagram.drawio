@@ -1,0 +1,240 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.2">
+  <diagram name="Page-1" id="cKYkJLbcHl44nesbQE27">
+    <mxGraphModel dx="1123" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ecweUeayvPzD2vr89Ezw-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="2520" width="700" x="1050" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Create Exit Ticket" vertex="1">
+          <mxGeometry height="114.5" width="200" x="1261.5" y="459" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Select one/more item from stock and create ticket&lt;/span&gt;" vertex="1">
+          <mxGeometry height="110" width="200" x="1261.5" y="807.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-4" parent="1" style="shape=mxgraph.signs.people.man_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="Authorized Applicant&amp;nbsp;" vertex="1">
+          <mxGeometry height="43.5" width="18" x="423" y="690.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Retrieve stock location details" vertex="1">
+          <mxGeometry height="110" width="200" x="1261.5" y="997.75" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Approve ticket" vertex="1">
+          <mxGeometry height="110" width="200" x="1261.5" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-7" parent="1" style="shape=mxgraph.signs.people.man_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="Pega" vertex="1">
+          <mxGeometry height="45" width="18" x="2085" y="848" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-8" edge="1" parent="1" source="ecweUeayvPzD2vr89Ezw-27" style="endArrow=classic;endSize=12;html=1;rounded=0;fontSize=12;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ecweUeayvPzD2vr89Ezw-2" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="610" y="660" as="sourcePoint" />
+            <mxPoint x="1220" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-9" edge="1" parent="1" style="endArrow=classic;endSize=12;html=1;rounded=0;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=1;" target="ecweUeayvPzD2vr89Ezw-23" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1362" y="580" as="sourcePoint" />
+            <mxPoint x="1346.3999999999996" y="641.3454999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-10" connectable="0" parent="ecweUeayvPzD2vr89Ezw-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.275" y="2" as="geometry">
+            <mxPoint x="57" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-11" edge="1" parent="1" source="ecweUeayvPzD2vr89Ezw-23" style="endArrow=classic;endSize=12;html=1;rounded=0;fontSize=12;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ecweUeayvPzD2vr89Ezw-3" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1362" y="764" as="sourcePoint" />
+            <mxPoint x="1351" y="925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-12" connectable="0" parent="ecweUeayvPzD2vr89Ezw-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.275" y="2" as="geometry">
+            <mxPoint x="57" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-13" edge="1" parent="1" source="ecweUeayvPzD2vr89Ezw-3" style="endArrow=classic;endSize=12;html=1;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ecweUeayvPzD2vr89Ezw-5" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1355.9" y="1032" as="sourcePoint" />
+            <mxPoint x="1356" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-14" connectable="0" parent="ecweUeayvPzD2vr89Ezw-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.275" y="2" as="geometry">
+            <mxPoint x="57" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-57" connectable="0" parent="ecweUeayvPzD2vr89Ezw-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.275" y="2" as="geometry">
+            <mxPoint x="57" y="204" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-59" connectable="0" parent="ecweUeayvPzD2vr89Ezw-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.275" y="2" as="geometry">
+            <mxPoint x="47" y="374" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-60" connectable="0" parent="ecweUeayvPzD2vr89Ezw-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.275" y="2" as="geometry">
+            <mxPoint x="57" y="704" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-61" connectable="0" parent="ecweUeayvPzD2vr89Ezw-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.275" y="2" as="geometry">
+            <mxPoint x="47" y="854" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-15" parent="1" style="text;whiteSpace=wrap;" value="[TDD-12558] [BZMS] As an Authorized Applicant, I want to create an Exit Ticket from liquid Storage so that goods can be properly tracked and exited from the Bonded Zone to Local Market/ROW in compliance with customs requirements" vertex="1">
+          <mxGeometry height="40" width="790" x="400" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-16" parent="1" style="shape=mxgraph.signs.people.man_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="Zone Operator(ZO)" vertex="1">
+          <mxGeometry height="43.5" width="18" x="590" y="764" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-17" parent="1" style="shape=mxgraph.signs.people.man_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Component Operator(CO)" vertex="1">
+          <mxGeometry height="43.5" width="18" x="580" y="634" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-18" edge="1" parent="1" style="endArrow=classic;endSize=12;html=1;rounded=0;fontSize=12;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="ecweUeayvPzD2vr89Ezw-27" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="620" y="790" as="sourcePoint" />
+            <mxPoint x="976" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-19" connectable="0" parent="ecweUeayvPzD2vr89Ezw-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Login to create or approve&amp;nbsp;&lt;div&gt;entry ticket&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3237" y="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-20" edge="1" parent="1" source="ecweUeayvPzD2vr89Ezw-5" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1446" y="889.5" as="sourcePoint" />
+            <mxPoint x="2070" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Applicant selects items and quantities" vertex="1">
+          <mxGeometry height="110" width="200" x="1261.5" y="1188.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-22" parent="1" style="shape=mxgraph.signs.people.man_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="Open Text" vertex="1">
+          <mxGeometry height="43.5" width="18" x="2085" y="1383.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Chooses zone and creates &quot;liquid exit ticket&quot;" vertex="1">
+          <mxGeometry height="104.5" width="200" x="1261.5" y="634" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-24" parent="1" style="shape=mxgraph.signs.people.man_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="Postgres" vertex="1">
+          <mxGeometry height="45" width="18" x="2078" y="659" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-25" edge="1" parent="1" style="endArrow=classic;endSize=12;html=1;rounded=0;fontSize=12;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ecweUeayvPzD2vr89Ezw-27" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="610" y="660" as="sourcePoint" />
+            <mxPoint x="1246" y="516" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-26" connectable="0" parent="ecweUeayvPzD2vr89Ezw-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Login" vertex="1">
+          <mxGeometry relative="1" x="-0.3423" y="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-27" parent="1" style="shape=mxgraph.signs.people.man_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="BZMS Customer Portal&amp;nbsp;" vertex="1">
+          <mxGeometry height="43.5" width="18" x="1040" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-28" parent="1" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Upload documents and &lt;br&gt;submit ticket" vertex="1">
+          <mxGeometry height="110" width="200" x="1261.5" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-34" edge="1" parent="1" source="ecweUeayvPzD2vr89Ezw-5" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="ecweUeayvPzD2vr89Ezw-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1461.5" y="630.75" as="sourcePoint" />
+            <mxPoint x="2085.5" y="793.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-35" edge="1" parent="1" source="ecweUeayvPzD2vr89Ezw-21" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ecweUeayvPzD2vr89Ezw-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1450" y="1330" as="sourcePoint" />
+            <mxPoint x="1500" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-36" edge="1" parent="1" source="ecweUeayvPzD2vr89Ezw-28" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="ecweUeayvPzD2vr89Ezw-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1467.9999999999995" y="2755" as="sourcePoint" />
+            <mxPoint x="1620" y="2410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-37" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="560" as="sourcePoint" />
+            <mxPoint x="510" y="1890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-38" parent="1" style="shape=mxgraph.signs.people.man_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="Trader" vertex="1">
+          <mxGeometry height="43.5" width="18" x="590" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="ecweUeayvPzD2vr89Ezw-38" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="560" as="sourcePoint" />
+            <mxPoint x="490" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-40" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="ecweUeayvPzD2vr89Ezw-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="656" as="sourcePoint" />
+            <mxPoint x="430" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-41" edge="1" parent="1" source="ecweUeayvPzD2vr89Ezw-38" style="endArrow=classic;endSize=12;html=1;rounded=0;fontSize=12;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.606;exitY=0.563;exitDx=0;exitDy=0;exitPerimeter=0;" target="ecweUeayvPzD2vr89Ezw-27" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="580" y="518" as="sourcePoint" />
+            <mxPoint x="1010" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-42" connectable="0" parent="ecweUeayvPzD2vr89Ezw-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Login" vertex="1">
+          <mxGeometry relative="1" x="-0.3423" y="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-48" parent="1" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="ZATCA approval" vertex="1">
+          <mxGeometry height="110" width="200" x="1261.5" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-49" edge="1" parent="1" source="ecweUeayvPzD2vr89Ezw-6" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ecweUeayvPzD2vr89Ezw-48" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1240" y="1680" as="sourcePoint" />
+            <mxPoint x="1290" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-50" edge="1" parent="1" source="ecweUeayvPzD2vr89Ezw-52" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1461.5" y="1724.29" as="sourcePoint" />
+            <mxPoint x="2085" y="1725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-51" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="ecweUeayvPzD2vr89Ezw-52" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1461.5" y="1724.29" as="sourcePoint" />
+            <mxPoint x="2085" y="1725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-52" parent="1" style="shape=mxgraph.signs.people.man_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="ZATCA" vertex="1">
+          <mxGeometry height="43.5" width="18" x="2085" y="1703.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-53" parent="1" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="&quot;Approved&quot; and notify all parties" vertex="1">
+          <mxGeometry height="110" width="200" x="1261.5" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-54" edge="1" parent="1" source="ecweUeayvPzD2vr89Ezw-48" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ecweUeayvPzD2vr89Ezw-53" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1240" y="1850" as="sourcePoint" />
+            <mxPoint x="1290" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-55" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ecweUeayvPzD2vr89Ezw-53" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="1890" as="sourcePoint" />
+            <mxPoint x="950" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecweUeayvPzD2vr89Ezw-56" edge="1" parent="1" source="ecweUeayvPzD2vr89Ezw-5" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ecweUeayvPzD2vr89Ezw-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1420" y="1170" as="sourcePoint" />
+            <mxPoint x="1470" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
