@@ -1,0 +1,598 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="GXOzZTdcQyDFuAuSXVRz">
+    <mxGraphModel dx="1123" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TF12L8T73tBw3IIkFHI7-1" parent="1" style="text;whiteSpace=wrap;" value="[TDD-12557] [BZMS] As an Authorized Applicant, I want to provide actual final quantity of an Entry/Exit Ticket of liquid after goods entered/exited the Zone so that accurate records are maintained, and compliance is ensured (within X days form Entry/exit)" vertex="1">
+          <mxGeometry height="50" width="760" x="1020" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;" value="" vertex="1">
+          <mxGeometry height="7730" width="6560" x="270" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BZMS Customer Frontend" vertex="1">
+          <mxGeometry height="41.56" width="85" x="1050" y="748.44" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Authorized Applicant(Trader/CO)" vertex="1">
+          <mxGeometry height="40" width="30" x="830" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pega SOR Adapter" vertex="1">
+          <mxGeometry height="39.22" width="110" x="1320" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;PEGA Case Adapter&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="1580" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-7" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Validation Adapter" vertex="1">
+          <mxGeometry height="39.22" width="110" x="2130" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-8" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="FASEH Adapter&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Database%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22910%22%20y%3D%22277.44%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="2385" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-9" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="FASEH System" vertex="1">
+          <mxGeometry height="45" width="120" x="2710" y="744.22" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-10" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Open Text Adapter" vertex="1">
+          <mxGeometry height="47.26" width="120" x="3010" y="742.74" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Notification Adapter" vertex="1">
+          <mxGeometry height="44.53" width="120" x="3624" y="745.47" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Notification Engine" vertex="1">
+          <mxGeometry height="44.53" width="120" x="3954" y="745.47" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-13" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Zone Operator" vertex="1">
+          <mxGeometry height="40" width="30" x="590" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ZATCA" vertex="1">
+          <mxGeometry height="38.44" width="120" x="5854" y="750.78" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Risk&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;Adapter&lt;/span&gt;" vertex="1">
+          <mxGeometry height="43.75" width="120" x="4280" y="747.74" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Risk&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;Engine&lt;/span&gt;" vertex="1">
+          <mxGeometry height="43.75" width="120" x="4604" y="745.47" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-17" parent="1" style="text;whiteSpace=wrap;" value="Unhappy Scenario 2: Created Exit Ticket requires more information by Zone Operator " vertex="1">
+          <mxGeometry height="40" width="530" x="1065" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;PEGA Core System&lt;/span&gt;" vertex="1">
+          <mxGeometry height="39.22" width="120" x="1870" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value=" Nebras Adapter" vertex="1">
+          <mxGeometry height="38.44" width="120" x="4944" y="747.15" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value=" Nebras System" vertex="1">
+          <mxGeometry height="38.44" width="120" x="5224" y="750.78" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Port &lt;br&gt;management Adapter" vertex="1">
+          <mxGeometry height="38.44" width="120" x="5534" y="751.56" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-22" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Open Text System" vertex="1">
+          <mxGeometry height="47.26" width="120" x="3306" y="744.11" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font color=&quot;#333333&quot;&gt;Domain Servcie&lt;/font&gt;" vertex="1">
+          <mxGeometry height="39.22" width="120" x="6144" y="749.22" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;PostgreSql&lt;/span&gt;" vertex="1">
+          <mxGeometry height="39.22" width="120" x="6435" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-25" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="7190.44" as="sourcePoint" />
+            <mxPoint x="605" y="788.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-26" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="842.5" y="7190.44" as="sourcePoint" />
+            <mxPoint x="847.5" y="788.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-27" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1090" y="7195.75" as="sourcePoint" />
+            <mxPoint x="1095" y="793.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-28" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1372.5" y="7195.75" as="sourcePoint" />
+            <mxPoint x="1377.5" y="793.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-29" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1637.5" y="7195.75" as="sourcePoint" />
+            <mxPoint x="1642.5" y="793.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-30" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1927.5" y="7195.75" as="sourcePoint" />
+            <mxPoint x="1932.5" y="793.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-31" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2182.5" y="7195.75" as="sourcePoint" />
+            <mxPoint x="2187.5" y="793.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-32" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2442.5" y="7195.75" as="sourcePoint" />
+            <mxPoint x="2447.5" y="793.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-33" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2767.5" y="7195.75" as="sourcePoint" />
+            <mxPoint x="2772.5" y="793.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-34" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3067.5" y="7195.75" as="sourcePoint" />
+            <mxPoint x="3072.5" y="793.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-35" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3363.5" y="7195.75" as="sourcePoint" />
+            <mxPoint x="3368.5" y="793.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-36" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3681.5" y="7195.75" as="sourcePoint" />
+            <mxPoint x="3686.5" y="793.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-37" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4011.5" y="7195.75" as="sourcePoint" />
+            <mxPoint x="4016.5" y="793.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-38" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4330" y="7192" as="sourcePoint" />
+            <mxPoint x="4335" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-39" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4661.5" y="7193.49" as="sourcePoint" />
+            <mxPoint x="4666.5" y="791.49" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-40" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="5001.5" y="7191.219999999999" as="sourcePoint" />
+            <mxPoint x="5006.5" y="789.22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-41" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="5281.5" y="7193.49" as="sourcePoint" />
+            <mxPoint x="5286.5" y="791.49" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-42" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="5591.5" y="7193.49" as="sourcePoint" />
+            <mxPoint x="5596.5" y="791.49" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-43" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="5911.5" y="7193.49" as="sourcePoint" />
+            <mxPoint x="5916.5" y="791.49" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-44" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="6201.5" y="7193.49" as="sourcePoint" />
+            <mxPoint x="6206.5" y="791.49" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-45" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="6492.5" y="7193.49" as="sourcePoint" />
+            <mxPoint x="6497.5" y="791.49" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-46" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Zone Operator" vertex="1">
+          <mxGeometry height="40" width="30" x="580" y="7200" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-47" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Authorized Applicant(Trader/CO)" vertex="1">
+          <mxGeometry height="40" width="30" x="830" y="7200" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BZMS Customer Frontend" vertex="1">
+          <mxGeometry height="41.56" width="85" x="1050" y="7200" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pega SOR Adapter" vertex="1">
+          <mxGeometry height="39.22" width="110" x="1320" y="7200" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;PEGA Case Adapter&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="1580" y="7201.56" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;PEGA Core System&lt;/span&gt;" vertex="1">
+          <mxGeometry height="39.22" width="120" x="1870" y="7200" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-52" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Validation Adapter" vertex="1">
+          <mxGeometry height="39.22" width="110" x="2130" y="7200" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-53" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="FASEH Adapter&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Database%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22910%22%20y%3D%22277.44%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="2385" y="7195.78" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-54" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="FASEH System" vertex="1">
+          <mxGeometry height="45" width="120" x="2710" y="7200" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-55" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Open Text Adapter" vertex="1">
+          <mxGeometry height="47.26" width="120" x="3010" y="7197.74" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-56" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Open Text System" vertex="1">
+          <mxGeometry height="47.26" width="120" x="3306" y="7197.15" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Notification Adapter" vertex="1">
+          <mxGeometry height="44.53" width="120" x="3624" y="7195.780000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Notification Engine" vertex="1">
+          <mxGeometry height="44.53" width="120" x="3954" y="7197.150000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Risk&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;Adapter&lt;/span&gt;" vertex="1">
+          <mxGeometry height="43.75" width="120" x="4270" y="7197.74" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Risk&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;Engine&lt;/span&gt;" vertex="1">
+          <mxGeometry height="43.75" width="120" x="4604" y="7197.150000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value=" Nebras Adapter" vertex="1">
+          <mxGeometry height="38.44" width="120" x="4944" y="7190" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value=" Nebras System" vertex="1">
+          <mxGeometry height="38.44" width="120" x="5224" y="7195.78" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Port &lt;br&gt;management Adapter" vertex="1">
+          <mxGeometry height="38.44" width="120" x="5534" y="7197.150000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ZATCA" vertex="1">
+          <mxGeometry height="38.44" width="120" x="5854" y="7197.74" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font color=&quot;#333333&quot;&gt;Domain Servcie&lt;/font&gt;" vertex="1">
+          <mxGeometry height="39.22" width="120" x="6144" y="7195.780000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;PostgreSql&lt;/span&gt;" vertex="1">
+          <mxGeometry height="39.22" width="120" x="6435" y="7195.78" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-67" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[TDD-12558] [BZMS] As an Authorized Applicant, I want to create an Exit Ticket from liquid Storage so that goods can be properly tracked and exited from the Bonded Zone to Local Market/ROW in compliance with customs requirements" vertex="1">
+          <mxGeometry height="50" width="720" x="930" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-68" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="850" y="900" as="sourcePoint" />
+            <mxPoint x="1090" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 Authorized applicant logs in and choose zone to create liquid Exit ticket" vertex="1">
+          <mxGeometry height="30" width="230" x="860" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-70" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1100" y="980" as="sourcePoint" />
+            <mxPoint x="1380" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.1 Get details of liquid exit ticket and stock details" vertex="1">
+          <mxGeometry height="30" width="220" x="1110" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-72" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1380" y="1030" as="sourcePoint" />
+            <mxPoint x="1930" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.7 Receives master details and stock details from PEGA" vertex="1">
+          <mxGeometry height="30" width="345" x="1395" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-74" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="1921.8655859375" y="1250" as="sourcePoint" />
+            <mxPoint x="1378.14" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.2 Get master details and stock details&amp;nbsp; from PEGA" vertex="1">
+          <mxGeometry height="30" width="220" x="1400" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-76" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="1378.14" y="1310" as="sourcePoint" />
+            <mxPoint x="1098.14" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.8 Receive master details and stock details" vertex="1">
+          <mxGeometry height="30" width="250" x="1108.14" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2 Select and allocate quantity of stock" vertex="1">
+          <mxGeometry height="30" width="220" x="1110" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-79" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1095" y="1380" as="sourcePoint" />
+            <mxPoint x="1640" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7.1 Update pending status to PEGA" vertex="1">
+          <mxGeometry height="30" width="250" x="1630" y="2070" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-81" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="1640" y="1854.41" as="sourcePoint" />
+            <mxPoint x="1100" y="1854.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4.3 Details saved with ticket submitted" vertex="1">
+          <mxGeometry height="30" width="220" x="1100" y="1820" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-83" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1100" y="2040" as="sourcePoint" />
+            <mxPoint x="1640" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-84" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7 Update ticket status as &quot;Pending- More Information Required&quot; in case adapter" vertex="1">
+          <mxGeometry height="30" width="495" x="1115" y="2020" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-85" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1640" y="2100" as="sourcePoint" />
+            <mxPoint x="1930" y="2100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-86" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1930" y="2140" as="sourcePoint" />
+            <mxPoint x="6200" y="2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-87" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7.2.a PEGA calls to Domain Service" vertex="1">
+          <mxGeometry height="30" width="250" x="1930" y="2110" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-88" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="6210" y="2200" as="sourcePoint" />
+            <mxPoint x="6500" y="2200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-89" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7.2.b Status updated to PostGres" vertex="1">
+          <mxGeometry height="30" width="225" x="6210" y="2170" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-90" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="6500" y="2270" as="sourcePoint" />
+            <mxPoint x="6210" y="2270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-91" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7.2.c Receive details of status from PostGres" vertex="1">
+          <mxGeometry height="30" width="250" x="6220" y="2240" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-92" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="6200" y="2340" as="sourcePoint" />
+            <mxPoint x="1930" y="2330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-93" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="1930" y="2390" as="sourcePoint" />
+            <mxPoint x="1640" y="2390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-94" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7.4 Receive details of status updated" vertex="1">
+          <mxGeometry height="30" width="280" x="1080" y="2400" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-95" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="1640" y="2430" as="sourcePoint" />
+            <mxPoint x="1100" y="2430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-96" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7.3 Receive details of status from PEGA" vertex="1">
+          <mxGeometry height="30" width="280" x="1615" y="2360" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-97" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="1910" as="sourcePoint" />
+            <mxPoint x="1085" y="1910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-98" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="6. Select Ticket for approval" vertex="1">
+          <mxGeometry height="30" width="220" x="575" y="1970" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-99" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="610" y="2000" as="sourcePoint" />
+            <mxPoint x="1090" y="2000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-100" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5. Zone Operator Login" vertex="1">
+          <mxGeometry height="30" width="220" x="565" y="1880" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-101" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7.2.d Receive details of status from Domain Service" vertex="1">
+          <mxGeometry height="30" width="280" x="1950" y="2310" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-102" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1095" y="1440" as="sourcePoint" />
+            <mxPoint x="3070" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-103" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3 Upload documents" vertex="1">
+          <mxGeometry height="30" width="220" x="1070" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-104" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1095" y="1690" as="sourcePoint" />
+            <mxPoint x="1640" y="1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-105" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4 Submit Exit ticket" vertex="1">
+          <mxGeometry height="30" width="220" x="1050" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-106" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4.1 Submit Exit ticket to PEGA" vertex="1">
+          <mxGeometry height="30" width="220" x="1630" y="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-107" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1640" y="1750" as="sourcePoint" />
+            <mxPoint x="1930" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-108" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="1930" y="1810" as="sourcePoint" />
+            <mxPoint x="1640" y="1810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-109" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4.2 Submit Exit ticket to PEGA" vertex="1">
+          <mxGeometry height="30" width="220" x="1640" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-110" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1930" y="2490" as="sourcePoint" />
+            <mxPoint x="3680" y="2490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-111" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7.5 Status &quot;Pending- More Information Required&quot; sent to notification adapter" vertex="1">
+          <mxGeometry height="30" width="460" x="1910" y="2450" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-112" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7.6 Status &quot;Pending- More Information Required&quot; sent to notification engine" vertex="1">
+          <mxGeometry height="30" width="280" x="3700" y="2510" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-113" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3690" y="2540" as="sourcePoint" />
+            <mxPoint x="4010" y="2540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-114" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7.7 Receives status &quot;Pending- More Information Required&quot; from notification&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;engine&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="3690" y="2600" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-115" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="4020" y="2630" as="sourcePoint" />
+            <mxPoint x="3690" y="2630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-116" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="3680" y="2680" as="sourcePoint" />
+            <mxPoint x="850" y="2680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-117" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7.8 Send &quot;Pending- More Information Required&quot; notification to applicant" vertex="1">
+          <mxGeometry height="30" width="450" x="840" y="2650" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-118" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8 Applicant updates and resubmits ticket&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="280" x="1070" y="2730" as="geometry" />
+        </mxCell>
+        <mxCell id="TF12L8T73tBw3IIkFHI7-119" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1090" y="2760" as="sourcePoint" />
+            <mxPoint x="1640" y="2760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1930" y="1080" as="sourcePoint" />
+            <mxPoint x="6202.857142857143" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.3 Get details from domain service" vertex="1">
+          <mxGeometry height="30" width="250" x="1950" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.4 Get details from postgres" vertex="1">
+          <mxGeometry height="30" width="220" x="6195" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="6205" y="1120" as="sourcePoint" />
+            <mxPoint x="6495" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-5" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="6495" y="1180" as="sourcePoint" />
+            <mxPoint x="6205" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.5 Details retrieved from postgres" vertex="1">
+          <mxGeometry height="30" width="220" x="6205" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-7" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="6200" y="1210" as="sourcePoint" />
+            <mxPoint x="1939.0476771763392" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.6 Retrieve details from domain service" vertex="1">
+          <mxGeometry height="30" width="250" x="1940" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.2 Upload documents to open text system" vertex="1">
+          <mxGeometry height="30" width="230" x="3100" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3080" y="1480" as="sourcePoint" />
+            <mxPoint x="3370" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-11" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="3370" y="1540" as="sourcePoint" />
+            <mxPoint x="3080" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.3 Documents uploaded to open text system" vertex="1">
+          <mxGeometry height="30" width="250" x="3100" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-13" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="3070" y="1590" as="sourcePoint" />
+            <mxPoint x="1100" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.3 Documents uploaded" vertex="1">
+          <mxGeometry height="30" width="220" x="1079.9999999999998" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8.1 Submit the ticket to PEGA" vertex="1">
+          <mxGeometry height="30" width="250" x="1640" y="2770" as="geometry" />
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1650" y="2800" as="sourcePoint" />
+            <mxPoint x="1940" y="2800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-18" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="1935" y="2880" as="sourcePoint" />
+            <mxPoint x="1645" y="2880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8.2 Details saved from PEGA" vertex="1">
+          <mxGeometry height="30" width="280" x="1620" y="2850" as="geometry" />
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8.3 Details saved with ticket submitted" vertex="1">
+          <mxGeometry height="30" width="280" x="1070" y="2900" as="geometry" />
+        </mxCell>
+        <mxCell id="vPK9KBtGRo0Yboi25BbZ-21" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="1640" y="2930" as="sourcePoint" />
+            <mxPoint x="1095" y="2930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
